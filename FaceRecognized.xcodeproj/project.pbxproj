@@ -14,6 +14,8 @@
 		DD19E6A6206D651800D6C711 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD19E6A4206D651800D6C711 /* LaunchScreen.storyboard */; };
 		DD19E6B1206D651900D6C711 /* FaceRecognizedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD19E6B0206D651900D6C711 /* FaceRecognizedTests.swift */; };
 		DD19E6BC206D651900D6C711 /* FaceRecognizedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD19E6BB206D651900D6C711 /* FaceRecognizedUITests.swift */; };
+		DD19E6CA206D89A700D6C711 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DD19E6C9206D89A600D6C711 /* SqueezeNet.mlmodel */; };
+		DD19E6CC206D8B9700D6C711 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DD19E6CB206D8B9700D6C711 /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		DD19E6B7206D651900D6C711 /* FaceRecognizedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceRecognizedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD19E6BB206D651900D6C711 /* FaceRecognizedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceRecognizedUITests.swift; sourceTree = "<group>"; };
 		DD19E6BD206D651900D6C711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD19E6C9206D89A600D6C711 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		DD19E6CB206D8B9700D6C711 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		DD19E69A206D651800D6C711 /* FaceRecognized */ = {
 			isa = PBXGroup;
 			children = (
+				DD19E6CB206D8B9700D6C711 /* Resnet50.mlmodel */,
+				DD19E6C9206D89A600D6C711 /* SqueezeNet.mlmodel */,
 				DD19E69B206D651800D6C711 /* AppDelegate.swift */,
 				DD19E69D206D651800D6C711 /* ViewController.swift */,
 				DD19E69F206D651800D6C711 /* Main.storyboard */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD19E69E206D651800D6C711 /* ViewController.swift in Sources */,
+				DD19E6CA206D89A700D6C711 /* SqueezeNet.mlmodel in Sources */,
+				DD19E6CC206D8B9700D6C711 /* Resnet50.mlmodel in Sources */,
 				DD19E69C206D651800D6C711 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
